@@ -1,0 +1,24 @@
+#for Loop
+for i in range(5):
+    print(i)
+
+#while Loop
+n = 1
+while n <= 5:
+    print(n)
+    n += 1
+
+#break, continue, pass
+for i in range(10):
+    if i == 5:
+        break  # stop loop
+    print(i)
+
+for i in range(5):
+    if i == 2:
+        continue  # skip 2
+    print(i)
+
+for i in range(3):
+    pass  # placeholder
+
